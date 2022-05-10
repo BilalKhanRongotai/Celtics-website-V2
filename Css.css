@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 7px 15px rgba(104. 104, 104, 0.8);
+}
+
+.wrapper {
+    display: grid;
+    gap: 20px;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--dark);
+}
+
+body {
+  background-color: green;
+    margin: 20px 20px;
+    line-height: 1.4em;
+    text-align: center;
+    background-image: url(website\ background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: lighten;
+}
+
+
+.main-nav ul {
+    display: grid;
+    gap: 5px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+
+
+}
+
+.main-nav a {
+    background: var(--primary);
+    display: block;
+    text-decoration: underline;
+    padding: 0.4rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    box-shadow: var(--shadow);
+    border-radius: 17px 17px 17px 17px;
+    
+    background-image: url(cover\ celtics.png);
+    background-size: contain ;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: bisque;
+    color: brown;
+
+
+}
+
+.main-nav a:hover {
+    background: green;
+    color: black;
+    border: solid;
+    text-align: center;
+    background-image: url(cover\ celtics.png);
+    background-size: contain ;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+
+header h1:hover {
+    color: greenyellow;
+    background-color: #0f5721;
+    border-style: dashed;
+    text-align: left;
+    text-size-adjust: 15px;
+}
+
+header p:hover {
+    color:#0f5721;
+ border-style: inset;
+ text-align: center;
+}
+header a:hover{
+  color: aqua;  
+  border-style: inset;
+  text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr) );
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-template-areas: "grid-head grid-head grid-head grid-head" "grid-main grid-main grid-main grid-main" "grid-main grid-main grid-main grid-main" "grid-main grid-main grid-main grid-main"  "grid-footer grid-footer grid-footer grid-footer" "grid-footer grid-footer grid-footer grid-footer";;
+    height: 100vh;
+    margin: 1em; 
+
+}
+
+section.grid-head {
+    grid-area: grid-head;
+    background: greenyellow;
+    border-radius: 25px 25px 0px 0px;
+   
+}
+
+
+section.grid-main {
+    grid-area: grid-main;
+    background-color: goldenrod;
+    text-align: left;
+    border-style: double;
+    font-size: large;
+  background:url()
+  
+           
+}
+
+.fling-minislide {
+  width:500px; 
+  height:500px;
+  padding-left: 15cm;
+}
+
+.fling-minislide img{ 
+  position:absolute; 
+  animation: fling-minislide 25s infinite; 
+  opacity:0;
+   width: 100%; 
+   height: 100%; 
+  }
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(5){animation-delay:0s;}
+.fling-minislide img:nth-child(4){animation-delay:5s;}
+.fling-minislide img:nth-child(3){animation-delay:10s;}
+.fling-minislide img:nth-child(2){animation-delay:15s;}
+.fling-minislide img:nth-child(1){animation-delay:20s;}
+
+
+  section.row {
+    display: flex;
+    flex-wrap: wrap;
+   
+  
+  }
+  
+ 
+  .column {
+    flex: 50%;
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: left;
+    width:  500px;
+    height: 500px;
+    border-style: ridge;
+  }
+ 
+  
+.indexinfo{
+    z-index:10;
+}
+
+.info{
+  text-align:end;
+}
+.social{
+ list-style: none;
+  
+}
+section.grid-footer{
+    grid-area: grid-footer;
+    background-color: greenyellow;
+    border: solid;
+    background-image: url(footer\ background\ 4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: darken;
+    
+}
+    
