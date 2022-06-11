@@ -5,9 +5,9 @@
 ### My website background
 I created a website that relates to my favourite basketball team the Boston Celtics.
 ### Layout
-This is my homepage the hero image is actually a slideshow and has a few photos on it.
+This is my homepage the hero image is actually a slideshow and has a few photos on it. The background is a picture of the Boston Celtics Homecourt in the TD Garden.
 <a href="task"><image src="https://github.com/BilalKhanRongotai/Celtics-website-V2/blob/main/home%20page%20SS.PNG?raw=true" title="the task" width=950>
- This is my Image Gallery 
+ This is my Image Gallery it consists of players past and present 
  <a href="task"><image src="https://github.com/BilalKhanRongotai/Celtics-website-V2/blob/main/image%20SS.PNG?raw=true" title="the task" width=950>
 This is my Video page 
  <a href="task"><image src="https://github.com/BilalKhanRongotai/Celtics-website-V2/blob/main/video%20SS.PNG?raw=true" title="the task" width=950>
