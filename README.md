@@ -18,7 +18,7 @@ This is my Video page
  This is my Contact page
  <a href="task"><image src="https://github.com/BilalKhanRongotai/Celtics-website-V2/blob/main/Contact%20SS.PNG?raw=true" title="the task" width=950> 
 This is my Maori Homepage
-  
+ 
 This is my Maori Image Gallery
   
 This is my Maori Video Page
