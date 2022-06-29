@@ -8,7 +8,7 @@ I created a website that relates to my favourite basketball team the Boston Celt
 This is my homepage the hero image is actually a slideshow and has a few photos on it. The background is a picture of the Boston Celtics Homecourt in the TD Garden. I have chosen the colors I chose because they are the team colors. I had a problem with the slideshow animation with resizing and moving. I decide to put all my information e.g maori page link on the same grid part (grid main) because I thought on the main page everything sshould be accesible easily. For the Social media links and my name in grid footer I set the back ground as the teams former logos. You cannot see it on this screenshiot but you can see it in the other screen shots where I was able to get the full screenshot.
 <a href="task"><image src="https://github.com/BilalKhanRongotai/Celtics-website-V2/blob/main/home%20page%20SS.PNG?raw=true" title="the task" width=950>
 
- This is my Image Gallery it consists of players past and present. I used css grid and flexbox to do it. I was going to let the images zoom on hover but that didn't work because of the css grid limits. 
+ This is my Image Gallery it consists of players past and present. I used css grid and flexbox to do it. I was going to let the images zoom on hover but that didn't work because of the css grid limits. I put a silver framing around the images to make it feel like they are framed. 
  
  <a href="task"><image src="https://github.com/BilalKhanRongotai/Celtics-website-V2/blob/main/image%20SS.PNG?raw=true" title="the task" width=950>
  
@@ -17,6 +17,7 @@ This is my Video page  I only decided to put one video as putting multiple would
  <a href="task"><image src="https://github.com/BilalKhanRongotai/Celtics-website-V2/blob/main/video%20SS.PNG?raw=true" title="the task" width=950>
  
  This is my Players page
+   Both the images when clicked on take you to a website about them 
  
   <a href="task"><image src="https://github.com/BilalKhanRongotai/Celtics-website-V2/blob/main/Player%20SS.PNG?raw=true" title="the task" width=950>
   
